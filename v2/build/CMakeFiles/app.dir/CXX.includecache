@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/head.h
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/main.cpp
+head.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/head.h
+iostream
+-
+stdio.h
+-
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/src/add.cpp
+stdio.h
+-
+head.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/src/head.h
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/src/div.cpp
+stdio.h
+-
+head.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/src/head.h
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/src/mult.cpp
+stdio.h
+-
+head.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/src/head.h
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/src/sub.cpp
+stdio.h
+-
+head.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/src/head.h
+

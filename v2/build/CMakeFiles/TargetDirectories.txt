@@ -1,0 +1,4 @@
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/build/CMakeFiles/rebuild_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/build/CMakeFiles/app.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/build/CMakeFiles/edit_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/build/CMakeFiles/calc.dir

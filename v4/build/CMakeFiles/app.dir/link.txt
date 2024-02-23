@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app.dir/main.cpp.o  -o app   -L/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v4/lib  -Wl,-rpath,/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v4/lib -lcalc 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test2.dir/sort.cpp.o  -o ../../bin/test2   -L/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/lib  -Wl,-rpath,/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/lib ../../lib/libsort.so 

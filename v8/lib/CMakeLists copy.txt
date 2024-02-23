@@ -1,0 +1,56 @@
+# CMakeLists.txt
+
+cmake_minimum_required(VERSION 3.10)
+project(ConditionalExample)
+
+# 设置 C++ 标准
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# 定义编译选项
+##方法1.用add_definitions
+# add_definitions(-DFEATURE_B) #add_definitions(-DFEATURE_A)表示将FEATURE_A作为编译的条件
+
+##方法2.用option和target_compile_definitions
+#option和add_definitions都是用来定义宏
+option(FEATURE_A "Enable feature A" ON)
+option(FEATURE_B "Enable feature B" OFF)
+
+
+# 添加可执行文件并链接相关的库
+add_executable(my_app main.cpp)
+
+# 根据编译选项定义预处理宏,如果是Feature_a，则只输出跟feature_a下面的代码
+if(FEATURE_A)
+    target_compile_definitions(my_app PRIVATE FEATURE_A)
+endif()
+
+if(FEATURE_B)
+    target_compile_definitions(my_app PRIVATE FEATURE_B)
+endif()
+
+
+#=======================if操作文件=====================
+# 定义一个变量
+set(NUMBER 10)
+
+# 如果 NUMBER 大于 5，则输出 "NUMBER is greater than 5"，否则输出 "NUMBER is not greater than 5"
+if(NUMBER GREATER 5)
+    message("NUMBER is greater than 5")
+else()
+    message("NUMBER is not greater than 5")
+endif()
+
+# 检查文件是否存在
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/example.txt")
+    message("example.txt exists")
+else()
+    message("example.txt does not exist")
+endif()
+
+# 如果 example.txt 存在，则输出其中的内容
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/example.txt")
+    file(READ "${CMAKE_CURRENT_SOURCE_DIR}/example.txt" FILE_CONTENT)
+    message("Content of example.txt: ${FILE_CONTENT}")
+endif()
+

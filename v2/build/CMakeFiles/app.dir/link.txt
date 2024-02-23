@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app.dir/src/add.cpp.o CMakeFiles/app.dir/src/div.cpp.o CMakeFiles/app.dir/src/mult.cpp.o CMakeFiles/app.dir/src/sub.cpp.o CMakeFiles/app.dir/main.cpp.o  -o app   -L/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/lib  -Wl,-rpath,/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v2/lib -Wl,-Bstatic -lcalc -Wl,-Bdynamic 

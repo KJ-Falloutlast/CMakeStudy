@@ -1,0 +1,14 @@
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/CMakeFiles/rebuild_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/CMakeFiles/edit_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/calc/CMakeFiles/rebuild_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/calc/CMakeFiles/edit_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/calc/CMakeFiles/calc.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/sort/CMakeFiles/rebuild_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/sort/CMakeFiles/edit_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/sort/CMakeFiles/sort.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/test1/CMakeFiles/rebuild_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/test1/CMakeFiles/edit_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/test1/CMakeFiles/test1.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/test2/CMakeFiles/rebuild_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/test2/CMakeFiles/edit_cache.dir
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/build/test2/CMakeFiles/test2.dir

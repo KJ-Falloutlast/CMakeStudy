@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/sort_algorithms.h
+vector
+-
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/sort/sort.cpp
+iostream
+-
+vector
+-
+sort_algorithms.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/sort/sort_algorithms.h
+

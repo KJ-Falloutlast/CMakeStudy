@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test1.dir/calc.cpp.o  -o ../../bin/test1   -L/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/lib  -Wl,-rpath,/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v6/lib ../../lib/libcalc.a 

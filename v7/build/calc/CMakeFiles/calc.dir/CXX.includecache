@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/calc.h
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/add.cpp
+stdio.h
+-
+calc.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/calc.h
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/calc.cpp
+calc.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/calc.h
+iostream
+-
+stdio.h
+-
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/div.cpp
+stdio.h
+-
+calc.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/calc.h
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/mult.cpp
+stdio.h
+-
+calc.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/calc.h
+
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/sub.cpp
+stdio.h
+-
+calc.h
+/home/kim-james/CPP_WS/cpp_ws/cmakelists_study/v7/calc/calc.h
+
